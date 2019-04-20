@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ODS">
+    <output-path>$PROJECT_DIR$/out/artifacts/ODS</output-path>
+    <root id="archive" name="ODS.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ODSever" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ODSever/web/Web" />
+    </root>
+  </artifact>
+</component>
